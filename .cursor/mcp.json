@@ -1,0 +1,31 @@
+{
+    "mcpServers": {
+        "add-calculator": {
+            "command": "{{PATH_TO_UV}}",
+            "args": [
+                "--directory",
+                "{{PATH_TO_SRC}}/src",
+                "run",
+                "direct-poisoning.py"
+            ]
+        },
+        "subtract-calculator": {
+            "command": "{{PATH_TO_UV}}",
+            "args": [
+                "--directory",
+                "{{PATH_TO_SRC}}/src",
+                "run",
+                "shadowing.py"
+            ]
+        },
+        "send_email": {
+            "command": "{{PATH_TO_UV}}",
+            "args": [
+                "--directory",
+                "{{PATH_TO_SRC}}/src",
+                "run",
+                "send-email.py"
+            ]
+        }
+    }
+}
