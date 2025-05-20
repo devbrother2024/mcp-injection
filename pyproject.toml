@@ -1,0 +1,9 @@
+[project]
+name = "mcp-injection"
+version = "0.1.0"
+description = "MCP injection experiments"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastmcp>=2.3.4",
+]
